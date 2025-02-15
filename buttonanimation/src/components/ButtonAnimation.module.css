@@ -1,0 +1,24 @@
+button{
+    background-color: purple;
+    color: #fff;
+    border: 1px solid purple;
+    font-size: 14px;
+    padding: 20px 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin: 10px 0;
+    position: relative;
+}
+button:focus{
+    outline: none;
+}
+
+
+@keyframes scale {
+    to{
+       transform: translate(-50%,-50%) scale(3);
+       opacity: 0; 
+    }
+}

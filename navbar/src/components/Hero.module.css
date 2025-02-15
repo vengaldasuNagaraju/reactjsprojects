@@ -1,0 +1,34 @@
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .heroContent h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+  
+  .heroContent p {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: #8e44ad;
+    color: #fff;
+    font-family:'Roboto Mono' , 'sans-serif';
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row; /* Arrange counters in a row */
+  align-items: center;
+  justify-content: center;
+  gap: 50px; /* Adjust spacing between counters */
+  height: 100vh;
+  flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers icon, counter, and label */
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for better UI */
+  min-width: 180px;
+}
+
+.icon {
+  margin-bottom: 10px; /* Adds spacing below icon */
+}
+
+.counter {
+  font-size: 60px; /* Adjust font size */
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+
+@media(max-width: 580px){
+    body{
+        flex-direction: column;
+    }
+}
